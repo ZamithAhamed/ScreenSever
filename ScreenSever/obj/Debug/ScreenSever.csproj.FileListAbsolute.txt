@@ -1,0 +1,10 @@
+E:\Github\ScreenSever\ScreenSever\bin\Debug\ScreenSever.exe.config
+E:\Github\ScreenSever\ScreenSever\bin\Debug\ScreenSever.exe
+E:\Github\ScreenSever\ScreenSever\bin\Debug\ScreenSever.pdb
+E:\Github\ScreenSever\ScreenSever\obj\Debug\ScreenSever.csprojAssemblyReference.cache
+E:\Github\ScreenSever\ScreenSever\obj\Debug\ScreenSever.frmScrnSvr.resources
+E:\Github\ScreenSever\ScreenSever\obj\Debug\ScreenSever.Properties.Resources.resources
+E:\Github\ScreenSever\ScreenSever\obj\Debug\ScreenSever.csproj.GenerateResource.cache
+E:\Github\ScreenSever\ScreenSever\obj\Debug\ScreenSever.csproj.CoreCompileInputs.cache
+E:\Github\ScreenSever\ScreenSever\obj\Debug\ScreenSever.exe
+E:\Github\ScreenSever\ScreenSever\obj\Debug\ScreenSever.pdb
