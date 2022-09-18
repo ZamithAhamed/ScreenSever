@@ -34,17 +34,19 @@
             // 
             // frmScrnSvr
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Black;
-            this.ClientSize = new System.Drawing.Size(470, 370);
+            this.ClientSize = new System.Drawing.Size(627, 455);
             this.Cursor = System.Windows.Forms.Cursors.Default;
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
+            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Name = "frmScrnSvr";
             this.ShowInTaskbar = false;
             this.Text = "Screen Server";
             this.TopMost = true;
             this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
+            this.Load += new System.EventHandler(this.FrmScrnSvr_Load);
             this.KeyDown += new System.Windows.Forms.KeyEventHandler(this.FrmScrnSvr_KeyDown);
             this.ResumeLayout(false);
 
