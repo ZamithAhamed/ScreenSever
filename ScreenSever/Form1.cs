@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.Threading;
 
 namespace ScreenSever
 {
@@ -43,6 +44,7 @@ namespace ScreenSever
             }
 
             for (int i = 0; i < 50; ++i) {
+                
                 BritPic mp = new BritPic();
                 mp.PicNum = i % BGImages.Count;
                 mp.x = rand.Next(0, Width);
@@ -62,12 +64,14 @@ namespace ScreenSever
         {
             foreach (BritPic bp in BritPics)
             {
+                
                 e.Graphics.DrawImage(BGImages[bp.PicNum], bp.x, bp.y);
-                bp.x -= 2;
+                bp.x -= 20;
 
                 if (bp.x < -250) {
-                    bp.x = Width + rand.Next(20, 100);
+                   bp.x = Width + rand.Next(20, 100);
                 }
+                //Thread.Sleep(1000);
             }
         }
     }

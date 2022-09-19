@@ -35,6 +35,7 @@
             // timer
             // 
             this.timer.Enabled = true;
+            this.timer.Interval = 2000;
             this.timer.Tick += new System.EventHandler(this.Timer_Tick);
             // 
             // frmScrnSvr
