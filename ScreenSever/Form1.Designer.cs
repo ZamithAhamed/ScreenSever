@@ -32,6 +32,11 @@
             this.timer = new System.Windows.Forms.Timer(this.components);
             this.SuspendLayout();
             // 
+            // timer
+            // 
+            this.timer.Enabled = true;
+            this.timer.Tick += new System.EventHandler(this.Timer_Tick);
+            // 
             // frmScrnSvr
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
@@ -47,6 +52,7 @@
             this.TopMost = true;
             this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
             this.Load += new System.EventHandler(this.FrmScrnSvr_Load);
+            this.Paint += new System.Windows.Forms.PaintEventHandler(this.FrmScrnSvr_Paint);
             this.KeyDown += new System.Windows.Forms.KeyEventHandler(this.FrmScrnSvr_KeyDown);
             this.ResumeLayout(false);
 

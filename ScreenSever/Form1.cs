@@ -52,5 +52,23 @@ namespace ScreenSever
 
             }
         }
+
+        private void Timer_Tick(object sender, EventArgs e)
+        {
+            Refresh();
+        }
+
+        private void FrmScrnSvr_Paint(object sender, PaintEventArgs e)
+        {
+            foreach (BritPic bp in BritPics)
+            {
+                e.Graphics.DrawImage(BGImages[bp.PicNum], bp.x, bp.y);
+                bp.x -= 2;
+
+                if (bp.x < -250) {
+                    bp.x = Width + rand.Next(20, 100);
+                }
+            }
+        }
     }
 }
